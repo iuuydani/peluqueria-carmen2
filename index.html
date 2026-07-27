@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carmen Espadas | Peluquería en Alcorcón</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fafafa;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero{
+max-width:850px;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.3rem;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#d4af37;
+color:#fff;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+transition:.3s;
+margin:10px;
+}
+
+.btn:hover{
+background:#b89221;
+transform:translateY(-3px);
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+font-size:2.3rem;
+text-align:center;
+margin-bottom:50px;
+color:#222;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#d4af37;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:20px;
+}
+
+.about-text h2{
+text-align:left;
+margin-bottom:20px;
+}
+
+.stats{
+background:#1f1f1f;
+color:white;
+}
+
+.stats-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+text-align:center;
+gap:30px;
+}
+
+.stat h3{
+font-size:3rem;
+color:#d4af37;
+}
+
+.reviews{
+background:#f5f5f5;
+}
+
+.review{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.review strong{
+color:#d4af37;
+}
+
+.contact{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:40px;
+}
+
+.contact-box{
+background:white;
+padding:35px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+footer{
+background:#111;
+color:#ddd;
+padding:30px;
+text-align:center;
+}
+
+iframe{
+width:100%;
+height:350px;
+border:none;
+border-radius:15px;
+}
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:2.8rem;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>Carmen Espadas</h1>
+
+<p>Tu peluquería de confianza en Alcorcón. Profesionalidad, asesoramiento personalizado y resultados que enamoran.</p>
+
+<a href="tel:910445662" class="btn">Llamar Ahora</a>
+
+<a href="#contacto" class="btn">Reservar Cita</a>
+
+</div>
+
+</header>
+
+<section>
+
+<h2>¿Por qué elegirnos?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>⭐ Valoración 4,8/5</h3>
+<p>Más de 187 clientes han confiado en nuestro trabajo y destacan nuestro trato cercano y profesional.</p>
+</div>
+
+<div class="card">
+<h3>💇 Cortes y Color</h3>
+<p>Especialistas en cortes modernos, coloración, mechas y asesoramiento personalizado.</p>
+</div>
+
+<div class="card">
+<h3>🌿 Productos Profesionales</h3>
+<p>Trabajamos con productos de alta calidad para cuidar y proteger tu cabello.</p>
+</div>
+
+<div class="card">
+<h3>😊 Atención Personalizada</h3>
+<p>Cada cliente recibe un diagnóstico y recomendaciones adaptadas a su estilo.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="about">
+
+<img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80">
+
+<div class="about-text">
+
+<h2>Mucho más que una peluquería</h2>
+
+<p>
+En Carmen Espadas cuidamos cada detalle para que disfrutes de una experiencia relajante y un resultado espectacular.
+</p>
+
+<br>
+
+<p>
+Nuestro equipo combina experiencia, formación continua y un trato cercano para ayudarte a encontrar el estilo que mejor encaja contigo.
+</p>
+
+<br>
+
+<a href="#contacto" class="btn">
+Pide tu cita
+</a>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<div class="stats-grid">
+
+<div class="stat">
+<h3>187+</h3>
+<p>Reseñas</p>
+</div>
+
+<div class="stat">
+<h3>4.8★</h3>
+<p>Valoración media</p>
+</div>
+
+<div class="stat">
+<h3>100%</h3>
+<p>Atención personalizada</p>
+</div>
+
+<div class="stat">
+<h3>✔</h3>
+<p>Productos profesionales</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="reviews">
+
+<h2>Lo que dicen nuestros clientes</h2>
+
+<div class="cards">
+
+<div class="review">
+<p>
+"El ambiente es tranquilo y limpio. Son unas grandes profesionales y siempre salgo encantada con mi corte."
+</p>
+
+<br>
+
+<strong>★★★★★ Mirela</strong>
+
+</div>
+
+<div class="review">
+
+<p>
+"María me asesoró perfectamente y el resultado fue increíble. Sin duda volveré."
+</p>
+
+<br>
+
+<strong>★★★★★ Amanda</strong>
+
+</div>
+
+<div class="review">
+
+<p>
+"Profesionalidad, buen trato y precios muy competitivos. Totalmente recomendable."
+</p>
+
+<br>
+
+<strong>★★★★★ Clientes satisfechos</strong>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contacto">
+
+<h2>Contacto</h2>
+
+<div class="contact">
+
+<div class="contact-box">
+
+<h3>Información</h3>
+
+<p><strong>📍 Dirección</strong><br>
+Av. del Alcalde José Aranda, 57<br>
+28924 Alcorcón (Madrid)</p>
+
+<br>
+
+<p><strong>📞 Teléfono</strong><br>
+910 44 56 62</p>
+
+<br>
+
+<p><strong>🕘 Horario</strong><br>
+Abierto desde las 09:30</p>
+
+<br>
+
+<a href="tel:910445662" class="btn">Llamar</a>
+
+</div>
+
+<div>
+
+<iframe
+src="https://maps.google.com/maps?q=Av.%20del%20Alcalde%20José%20Aranda%2057%20Alcorcón&t=&z=15&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Carmen Espadas</h3>
+
+<p>Peluquería Profesional en Alcorcón</p>
+
+<p>© 2026 Todos los derechos reservados.</p>
+
+</footer>
+
+</body>
+</html>
